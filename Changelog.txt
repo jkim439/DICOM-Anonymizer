@@ -1,0 +1,17 @@
+DICOM Anonymizer Changelog
+
+v1.0.2 (November 8, 2018)
+- Change project name (ANON -> ANONYMIZER)
+- Fix null error in 'ds.AcquisitionTime'
+- Catch and skip 'LookupError: unknown encoding: ISO IR 149'
+- Remove test mode
+
+v1.0.1 (October 29, 2018)
+- Add start message
+- Ask user before starting process
+- Change log and pkey folder path
+- Fix exception error in 'Generate accession number' part
+- Overwrite ds.PatientAge value if there is no birth data
+
+v1.0.0 (October 18, 2018)
+- Initial release
